@@ -28,18 +28,22 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 504px;
+    height: 504px;
 }
 
-.grid-container .grid-col {
-    border: 1px solid white;
+.grid-container {
+    background-color: #e18c7a;
+    border: 2px solid #5F4B8BFF;
+}
+
+.square-clicked {
+    background-color: #c9bfd8;
 }
 
 footer {

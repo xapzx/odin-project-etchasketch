@@ -26,8 +26,10 @@ header, footer {
     flex: 1;
     background-color: #E69A8DFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 .grid-container {
@@ -44,6 +46,51 @@ header, footer {
 
 .square-clicked {
     background-color: #c9bfd8;
+}
+
+.slider-container {
+    display: flex;
+    gap: 4px;
+}
+
+.slider-container input[type=text] {
+    width: 36px;
+    border: 2px solid #5F4B8BFF;
+    border-radius: 4px;
+    background-color: #e18c7a;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
 }
 
 footer {

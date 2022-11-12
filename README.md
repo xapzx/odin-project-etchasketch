@@ -1,6 +1,8 @@
 # odin-project-etchasketch
 Project: Build a browser version of something between a sketchpad and an Etch-A-Sketch
 
+Live Preview: https://xapzx.github.io/odin-project-etchasketch/
+
 This project is apart of The Odin Project Foundations Course. The aim of this project is to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 Assignment Details:

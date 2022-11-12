@@ -63,6 +63,24 @@ header, footer {
     font-weight: bold;
 }
 
+.slider-container button {
+    background-color: #5F4B8BFF;
+    border: 1px solid #5F4B8BFF;
+    border-radius: 4px;
+    color: white;
+}
+
+.slider-container button:hover {
+    background-color: #4c3c6f;
+    color: white;
+}
+
+.slider-container button:active {
+    background-color: #5F4B8BFF;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;

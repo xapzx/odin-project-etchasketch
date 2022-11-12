@@ -35,8 +35,8 @@ header, footer {
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    width: 504px;
-    height: 504px;
+    width: 505px;
+    height: 505px;
 }
 
 .grid-container {

@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: verdana, georgia, arial;
+}
+
+.title {
+    font-family: Cabin Sketch;
+    font-size: 48px;
+    color: white;
+}
+
+header, footer {
+    background-color: #5F4B8BFF;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    background-color: #E69A8DFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 32px 0;
+}
